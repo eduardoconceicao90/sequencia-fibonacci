@@ -27,7 +27,7 @@ public class Program {
 					b = aux;
 				}
 				
-				if (i == aux) {
+				if (i == aux || aux == 0) {
 					System.out.println("O número "+ i + " está na sequência, o próximo número é " + (a+i) +".");
 				}else {
 					System.out.println("Número informado não está na sequência Fibonacci.");
